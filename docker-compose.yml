@@ -14,7 +14,7 @@ services:
     
 
   vprocache:
-    image: memcashed
+    image: memcached
     ports:
       - "11211:11211"
     
