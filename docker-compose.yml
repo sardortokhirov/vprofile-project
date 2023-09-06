@@ -13,12 +13,12 @@ services:
       - MYSQL_ROOT_PASSWORD=vprodbpass
     
 
-  vprocache01:
+  vprocache:
     image: memcashed
     ports:
       - "11211:11211"
     
-  vpromq01:
+  vpromq:
     image: rabbitmq
     ports:
       - "15672:15672"
